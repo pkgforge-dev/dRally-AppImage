@@ -28,4 +28,4 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd ./dRally
 make -j$(nproc)
-mv -v draly_linux ../AppDir/bin
+mv -v drally_linux ../AppDir/bin
