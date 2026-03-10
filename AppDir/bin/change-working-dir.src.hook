@@ -1,0 +1,4 @@
+#!/bin/false
+dir=${XDG_DATA_HOME:-~/.local/share}/dRally
+mkdir -p "$dir"/dRally
+cd "$dir"
