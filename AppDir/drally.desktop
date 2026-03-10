@@ -5,5 +5,5 @@ Comment="A port of Death Rally (1996)"
 Icon=drally
 Exec=drally_linux
 Terminal=false
-StartupWMClass=
+StartupWMClass=drally_linux
 Categories=Game;Action;Racing;
