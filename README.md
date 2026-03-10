@@ -17,7 +17,7 @@
 
 </div>
 
-### ⚠️ Place game assets all in UPPERCASE in `~/.local/share/dRally` ⚠️
+### ⚠️ Place all game assets in UPPERCASE in `~/.local/share/dRally` ⚠️
 
 ---
 
