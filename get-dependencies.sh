@@ -26,7 +26,7 @@ VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
 git clone "$REPO" ./dRally
 echo "$VERSION" > ~/version
 
-sed -i -e 's|-O2|-O2 -std=gnu17|' /etc/makepkg.conf
+sed -i -e 's|-O2|-O2 -std=gnu11|' /etc/makepkg.conf
 mkdir -p ./AppDir/bin
 cd ./dRally
 make -j$(nproc)
