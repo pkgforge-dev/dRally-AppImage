@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/dRally-AppImage)](https://github.com/pkgforge-dev/dRally-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://github.com/Link4Electronics/dRally-AppImage/blob/main/AppDir/drally.png" width="128" />
 </p>
 
 
