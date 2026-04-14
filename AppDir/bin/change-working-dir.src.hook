@@ -1,4 +1,4 @@
 #!/bin/sh
-dir=${XDG_DATA_HOME:-~/.local/share}/dRally
+dir=$DATADIR/dRally
 mkdir -p "$dir"
 cd "$dir"
