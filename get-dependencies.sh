@@ -6,13 +6,11 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-    libdecor \
-    sdl2_net
+pacman -Syu --noconfirm sdl2_net
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano libdecor-mini
 
 echo "Building dRally..."
 echo "---------------------------------------------------------------"
