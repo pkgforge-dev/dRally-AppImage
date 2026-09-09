@@ -16,7 +16,7 @@ echo "Building dRally..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/urxp/dRally"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./dRally
+git clone --depth 1 "$REPO" ./dRally
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
